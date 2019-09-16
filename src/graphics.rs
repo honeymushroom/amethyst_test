@@ -110,7 +110,6 @@ impl SimpleState for Example {
             );
     }
 
-    /*
     fn handle_event(
         &mut self,
         _: StateData<'_, GameData<'_, '_>>,
@@ -126,7 +125,6 @@ impl SimpleState for Example {
             Trans::None
         }
     }
-    */
 }
 
 pub struct ShowFovSystem;
